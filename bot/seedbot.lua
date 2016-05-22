@@ -235,18 +235,15 @@ function create_config( )
     "info",
     "rm"
     },
-    sudo_users = {226726601},--Sudo users
+    sudo_users = {197393741},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Asimo-BOT (Mega Model)
+    about_text = [[Hang-BOT (Mega Model)
 An advanced bot based on TG-CLI written in Lua...!
 
-Admins:
-Chief and sudo: @ArashRanger
-investor: @DrCyber1736
-Helper: @Pukeram
+Sudo: @Kimi_balaa_shar
+Developer: @ArashRanger
 
-channel:
-@AsimoTeam
+http://uport.ir/uploads/458012496684398527.jpg
 
 ]],
     help_text_realm = [[
@@ -460,7 +457,7 @@ ____________________________
 » Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
 
 » Only owner can use res,setowner,promote,demote and log commands
->>Channel: @AsimoTeam
+
 ]],
 	help_text_super =[[
 >>SuperGroup Commands:
@@ -603,7 +600,6 @@ ____________________________
 
 »Only owner can use res, setowner, promote, demote, and log commands
 
-Join for updates news to @AsimoTeam
 ]],
   }
   serialize_to_file(config, './data/config.lua')
